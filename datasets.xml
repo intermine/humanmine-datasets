@@ -258,7 +258,7 @@ D. rerio, C. elegans, M. musculus, R. norvegicus, H. sapiens, S. cerevisiae from
     <reference name="publication" ref_id="20"/>
 </item>
 
-<item id="723" class="" implements="DataSet">
+<item id="724" class="" implements="DataSet">
     <attribute name="name" value="uniprot"/>
     <attribute name="description" value="UniProt protein sequences: Protein sequences from UniProt"/>
     <attribute name="version" value="2020_02"/>
