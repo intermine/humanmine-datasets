@@ -221,7 +221,7 @@ D. rerio, C. elegans, M. musculus, R. norvegicus, H. sapiens, S. cerevisiae from
 
 
 <item id="706" class="" implements="DataSource">
-    <attribute name="name" value="OMIM"/>
+    <attribute name="name" value="Online Mendelian Inheritance in Man"/>
     <attribute name="description" value="Online Mendelian Inheritance in Man: A Catalog of Human Genes and Genetic Disorders"/>
     <attribute name="url" value="https://www.omim.org/"/>
 </item>
