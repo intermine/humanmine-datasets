@@ -468,17 +468,17 @@ D. rerio, C. elegans, M. musculus, R. norvegicus, H. sapiens, S. cerevisiae from
   <reference name ="publication" ref_id="46"/>
 </item>
 
-<item id="706" class="" implements="DataSource">
+<item id="1003" class="" implements="DataSource">
   <attribute name="name" value="HUGO Gene Nomenclature Committee"/>
   <attribute name="url" value="https://www.genenames.org/"/>
   <attribute name="description" value="HUGO gene nomenclature committee: The resource for approved human gene nomenclature"/>
 </item>
 
-<item id="707" class="" implements="DataSet">
+<item id="1004" class="" implements="DataSet">
   <attribute name="name" value="hgnc"/>
   <attribute name="description" value="HGNC identifiers: HUGO gene nomenclature committee: Approved identifiers for Human genes"/>
   <attribute name="version" value="April 2020"/>
-  <reference name="dataSource" ref_id="706"/>
+  <reference name="dataSource" ref_id="1003"/>
   <reference name ="publication" ref_id="47"/>
 </item>
 
