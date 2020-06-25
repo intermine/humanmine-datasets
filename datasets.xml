@@ -131,7 +131,7 @@
     <reference name="dataSource" ref_id="09"/>
   </item>
 
-  <item id="721" class="" implements="DataSet">
+  <item id="1001" class="" implements="DataSet">
     <attribute name="name" value="ncbi-gene"/>
     <attribute name="description" value="Homo sapiens gene information: Additional Homo sapiens gene information from NCBI-Gene, released 7th June 2019"  />
     <attribute name="version" value="109.20200228"/>
@@ -169,7 +169,7 @@ D. rerio, C. elegans, M. musculus, R. norvegicus, H. sapiens, S. cerevisiae from
     <attribute name="url" value="https://www.ebi.ac.uk/interpro/"/>
 </item>
 
-<item id="724" class="" implements="DataSet">
+<item id="1002" class="" implements="DataSet">
     <attribute name="name" value="interpro"/>
     <attribute name="description" value="InterPro: Protein families and domains"/>
     <attribute name="version" value="79.0; April 2020"/>
