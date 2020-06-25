@@ -1,0 +1,621 @@
+<?xml version="1.0"?>
+<items>
+<item id="0" class="" implements="DataSource">
+    <attribute name="name" value="HumanMine"/>
+    <attribute name="description" value="An integrated database of Homo sapiens genomic data"/>
+    <attribute name="url" value="http://www.humanmine.org"/>
+</item>
+
+<item id="20" class="" implements="Publication">
+    <attribute name="pubMedId" value="26896845"/>
+</item>
+
+<item id="22" class="" implements="Publication">
+    <attribute name="pubMedId" value="20379172"/>
+</item>
+
+<item id="27" class="" implements="Publication">
+    <attribute name="pubMedId" value="22080510"/>
+</item>
+
+<item id="29" class="" implements="Publication">
+    <attribute name="pubMedId" value="29145629"/>
+</item>
+
+
+<item id="32" class="" implements="Publication">
+    <attribute name="pubMedId" value="27980099"/>
+</item>
+
+
+<item id="35" class="" implements="Publication">
+    <attribute name="pubMedId" value="10802651"/>
+</item>
+
+<item id="36" class="" implements="Publication">
+    <attribute name="pubMedId" value="27899635"/>
+</item>
+
+<item id="37" class="" implements="Publication">
+    <attribute name="pubMedId" value="18227866"/>
+</item>
+
+<item id="38" class="" implements="Publication">
+    <attribute name="pubMedId" value="25613900"/>
+</item>
+
+<item id="39" class="" implements="Publication">
+    <attribute name="pubMedId" value="30445434"/>
+</item>
+
+
+<item id="40" class="" implements="Publication">
+    <attribute name="pubMedId" value="27899595"/>
+</item>
+
+<item id="41" class="" implements="Publication">
+    <attribute name="pubMedId" value="27899635"/>
+</item>
+
+<item id="42" class="" implements="Publication">
+    <attribute name="pubMedId" value="24234451"/>
+</item>
+
+<item id="43" class="" implements="Publication">
+    <attribute name="pubMedId" value="27899602"/>
+</item>
+
+<item id="44" class="" implements="Publication">
+  <attribute name="pubMedId" value="30395331"/>
+</item>
+
+<item id="45" class="" implements="Publication">
+  <attribute name="pubMedId" value="26582918"/>
+</item>
+
+<item id="46" class="" implements="Publication">
+  <attribute name="pubMedId" value="17099234"/>
+</item>
+
+<item id="47" class="" implements="Publication">
+  <attribute name="pubMedId" value="16381876"/>
+</item>
+
+<item id="48" class="" implements="Publication"> 
+    <attribute name="pubMedId" value="15892872"/> 
+</item>
+
+<item id="49" class="" implements="Publication">
+  <attribute name="pubMedId" value="14755292"/>
+</item>
+
+<item id="50" class="" implements="Publication">
+  <attribute name="pubMedId" value="31713623"/>
+</item>
+
+<item id="51" class="" implements="Publication"> 
+    <attribute name="pubMedId" value="30407599"/> 
+</item>
+
+<item id="52" class="" implements="Publication"> 
+    <attribute name="pubMedId" value="20052305"/> 
+</item>
+
+<item id="53" class="" implements="Publication"> 
+    <attribute name="pubMedId" value="10802651"/> 
+</item>
+
+<item id="54" class="" implements="Publication"> 
+    <attribute name="pubMedId" value="30357405"/> 
+</item>
+
+<item id="09" class="" implements="DataSource">
+    <attribute name="name" value="NCBI"/>
+    <attribute name="description" value="National Centre for Biotechnology Information"/>
+    <attribute name="url" value="https://www.ncbi.nlm.nih.gov"/>
+</item>
+
+<item id="10" class="" implements="DataSet">
+    <attribute name="name" value="ncbi-fasta"/>
+    <attribute name="description" value="Homo sapiens genome sequence: Release GRCh38 of the Homo sapiens genome sequence"/>
+    <attribute name="version" value="GRCh38.p13"/>
+    <attribute name="url" value="https://www.ncbi.nlm.nih.gov"/>
+    <reference name="dataSource" ref_id="09"/>
+</item>
+
+<item id="14" class="" implements="DataSet">
+    <attribute name="name" value="ncbi-gff"/>
+    <attribute name="description" value="Homo sapiens genome annotation: released 7th June 2019"  />
+    <attribute name="version" value="109.20200228"/>
+    <attribute name="url" value="https://www.ncbi.nlm.nih.gov"/>
+    <reference name="dataSource" ref_id="09"/>
+  </item>
+
+  <item id="721" class="" implements="DataSet">
+    <attribute name="name" value="ncbi-gene"/>
+    <attribute name="description" value="Homo sapiens gene information: Additional Homo sapiens gene information from NCBI-Gene, released 7th June 2019"  />
+    <attribute name="version" value="109.20200228"/>
+    <attribute name="url" value="https://www.ncbi.nlm.nih.gov"/>
+    <reference name="dataSource" ref_id="09"/>
+  </item>
+
+    <item id="722" class="" implements="DataSet">
+    <attribute name="name" value="ncbi-summaries"/>
+    <attribute name="description" value="Homo sapiens gene summaries: text descriptions for gene functions from NCBI-Gene, released 7th June 2019"  />
+    <attribute name="version" value="109.20200228"/>
+    <attribute name="url" value="https://www.ncbi.nlm.nih.gov"/>
+    <reference name="dataSource" ref_id="09"/>
+</item>
+
+<item id="696" class="" implements="DataSource">
+    <attribute name="name" value="Panther"/>
+    <attribute name="description" value="Panther (Protein ANalysis THrough Evolutionary Relationships) Classification System)"/>
+    <attribute name="url" value="http://pantherdb.org/"/>
+</item>
+
+<item id="695" class="" implements="DataSet">
+    <attribute name="name" value="panther"/>
+    <attribute name="description" value="Panther:Orthologue and Paralogue predictions between D. melanogaster,
+D. rerio, C. elegans, M. musculus, R. norvegicus, H. sapiens, S. cerevisiae from the Panther database"/>
+    <attribute name="version" value="15.0; April 2020"/>
+    <attribute name="url" value="http://pantherdb.org/"/>
+    <reference name="dataSource" ref_id="696"/>
+    <reference name="publication" ref_id="40"/>
+</item>
+
+<item id="697" class="" implements="DataSource">
+    <attribute name="name" value="interpro"/>
+    <attribute name="description" value="InterPro: Protein sequence analysis: classification of families and prediction of domains and important sites"/>
+    <attribute name="url" value="https://www.ebi.ac.uk/interpro/"/>
+</item>
+
+<item id="724" class="" implements="DataSet">
+    <attribute name="name" value="interpro"/>
+    <attribute name="description" value="InterPro: Protein families and domains"/>
+    <attribute name="version" value="79.0; April 2020"/>
+    <attribute name="url" value="https://www.ebi.ac.uk/interpro/"/>
+    <reference name="dataSource" ref_id="697"/>
+    <reference name="publication" ref_id="41"/>
+</item>
+
+<item id="6980" class="" implements="DataSet">
+    <attribute name="name" value="protein2ipr"/>
+    <attribute name="description" value="InterPro protein matches: Protein family and domain assignments to Homo sapiens proteins"/>
+    <attribute name="version" value="79.0; April 2020"/>
+    <attribute name="url" value="https://www.ebi.ac.uk/interpro/"/>
+    <reference name="dataSource" ref_id="697"/>
+    <reference name="publication" ref_id="41"/>
+</item>
+
+<item id="698" class="" implements="DataSource">
+    <attribute name="name" value="IntAct"/>
+    <attribute name="description" value="IntAct Molecular Interaction Database: Curated and user submitted Molecular Interaction Data"/>
+    <attribute name="url" value="https://www.ebi.ac.uk/intact/"/>
+</item>
+
+<item id="699" class="" implements="DataSet">
+    <attribute name="name" value="psi-intact"/>
+    <attribute name="description" value="IntAct molecular interactions: Molecular interactions for Homo sapiens and Mus musculus from the IntAct database"/>
+    <attribute name="version" value="April 2020"/>
+    <attribute name="url" value="https://www.ebi.ac.uk/intact/"/>
+    <reference name="dataSource" ref_id="698"/>
+    <reference name="publication" ref_id="42"/>
+</item>
+
+
+<item id="730" class="" implements="DataSource">
+    <attribute name="name" value="Complex Portal"/>
+    <attribute name="description" value="Manually curated, encyclopaedic resource of macromolecular complexes"/>
+    <attribute name="url" value="https://www.ebi.ac.uk/complexportal/home"/>
+</item>
+
+
+<item id="731" class="" implements="DataSet">
+    <attribute name="name" value="psi-complexes"/>
+    <attribute name="description" value="Macromolecular complexes: Macromolecular complexes for Homo sapiens from the EBI complex portal"/>
+    <attribute name="version" value="232: April 2020"/>
+    <attribute name="url" value="https://www.ebi.ac.uk/complexportal/home"/>
+    <reference name="dataSource" ref_id="730"/>
+    <reference name="publication" ref_id="54"/>
+</item>
+
+
+<item id="706" class="" implements="DataSource">
+    <attribute name="name" value="OMIM"/>
+    <attribute name="description" value="Online Mendelian Inheritance in Man: A Catalog of Human Genes and Genetic Disorders"/>
+    <attribute name="url" value="https://www.omim.org/"/>
+</item>
+
+<item id="707" class="" implements="DataSet">
+    <attribute name="name" value="omim"/>
+    <attribute name="description" value="OMIM diseases: Human disease data from OMIM mapped to genes"/>
+    <attribute name="version" value="April 2020"/>
+    <attribute name="url" value="https://www.omim.org/"/>
+    <reference name="dataSource" ref_id="706"/>
+</item>
+
+<item id="13" class="" implements="DataSource">
+    <attribute name="name" value="UniProt"/>
+    <attribute name="description" value="Uniprot Protein Knowledgebase"/>
+    <attribute name="url" value="http://www.uniprot.org/"/>
+</item>
+
+<item id="11" class="" implements="DataSet">
+    <attribute name="name" value="uniprot"/>
+    <attribute name="description" value="UniProt: Swiss-prot and TrEMBL: Swiss-prot:high-quality, manually annotated, non-redundant protein sequences; TrEMBL: Computationally analysed records, enriched with automatic annotation"/>
+    <attribute name="version" value="2020_02"/>
+    <attribute name="url" value="http://www.uniprot.org/"/>
+    <reference name="dataSource" ref_id="13"/>
+    <reference name="publication" ref_id="20"/>
+</item>
+
+<item id="723" class="" implements="DataSet">
+    <attribute name="name" value="uniprot-keywords"/>
+    <attribute name="description" value="UniProt keywords: a controlled vocabulary for UniProt data"/>
+    <attribute name="version" value="2020_02"/>
+    <attribute name="url" value="http://www.uniprot.org/"/>
+    <reference name="dataSource" ref_id="13"/>
+    <reference name="publication" ref_id="20"/>
+</item>
+
+<item id="723" class="" implements="DataSet">
+    <attribute name="name" value="uniprot"/>
+    <attribute name="description" value="UniProt protein sequences: Protein sequences from UniProt"/>
+    <attribute name="version" value="2020_02"/>
+    <attribute name="url" value="http://www.uniprot.org/"/>
+    <reference name="dataSource" ref_id="13"/>
+    <reference name="publication" ref_id="20"/>
+</item>
+
+<item id="112" class="" implements="DataSource">
+    <attribute name="name" value="ArrayExpress"/>
+    <attribute name="description" value="Array Express - functional genomics data"/>
+    <attribute name="url" value="http://www.ebi.ac.uk/arrayexpress/"/>
+</item>
+
+<item id="1620" class="" implements="DataSet">
+    <attribute name="name" value="arrayexpress-atlas"/>
+    <attribute name="description" value="E-MTAB-62: Human gene expression atlas of 5372 samples representing 369 different cell and tissue types, disease states and cell lines"/>
+    <attribute name="version" value="June 2011"/>
+    <attribute name="url" value="https://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-62/"/>
+    <reference name="dataSource" ref_id="112"/>
+    <reference name="publication" ref_id="22"/>
+</item>
+
+<item id="162" class="" implements="DataSet">
+    <attribute name="name" value="atlas-express"/>
+    <attribute name="description" value="Illumina Body Map: RNA-Seq of human individual tissues and mixture of 16 tissues (Illumina Body Map: E-MTAB-513)"/>
+    <attribute name="url" value="https://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-513/"/>
+    <attribute name="version" value="July 2014"/>
+    <reference name="dataSource" ref_id="112"/>
+</item>
+
+<item id="490" class="" implements="DataSource">
+    <attribute name="name" value="GenomeNet"/>
+    <attribute name="description" value="Network of database and computational services for genome research and related research areas in biomedical sciences, operated by the Kyoto University Bioinformatics Center. "/>
+    <attribute name="url" value="http://www.genome.jp/en/"/>
+</item>
+
+<!-- don't change data set name. this exact name is used to filter pathways on an analysis tool -->
+<item id="491" class="" implements="DataSet">
+    <attribute name="name" value="kegg-pathway"/>
+    <attribute name="description" value="KEGG pathways: Manually drawn pathway maps representing our knowledge on the molecular interaction and reaction networks for Homo sapiens and Mus musculus"/>
+    <attribute name="url" value="http://www.genome.jp/kegg/pathway.html"/>
+    <attribute name="version" value="58; May 2011"/>
+    <reference name="dataSource" ref_id="490"/>
+    <reference name="publication" ref_id="27"/>
+</item>
+
+<item id="117" class="" implements="DataSource">
+    <attribute name="name" value="Reactome"/>
+    <attribute name="description" value="Reactome: an open source relational database of signaling and metabolic molecules and their relations organized into biological pathways and processes"/>
+    <attribute name="url" value="http://www.reactome.org/"/>
+</item>
+
+<!-- don't change data set name. this exact name is used to filter pathways on an analysis tool -->
+<item id="552" class="" implements="DataSet">
+    <attribute name="name" value="reactome"/>
+    <attribute name="description" value="Reactome pathways: pathway data for Homo sapiens and Mus musculus from the Reactome database"/>
+    <attribute name="version" value="72; April 2020"/>
+    <attribute name="url" value="http://www.reactome.org"/>
+    <reference name="dataSource" ref_id="117"/>
+    <reference name="publication" ref_id="29"/>
+</item>
+
+<item id="630" class="" implements="DataSource">
+    <attribute name="name" value="BioGRID"/>
+    <attribute name="description" value="Biological General Repository for interaction datasets"/>
+    <attribute name="url" value="http://www.thebiogrid.org/"/>
+</item>
+
+<item id="631" class="" implements="DataSet">
+    <attribute name="name" value="biogrid"/>
+    <attribute name="description" value="BioGRID interactions: Curated genetic and physical interaction data for Homo sapiens and Mus musculus fromt he BioGRID database"/>
+    <attribute name="version" value="3.5.185; April 2020"/>
+    <attribute name="url" value="http://www.thebiogrid.org/downloads.php"/>
+    <reference name="dataSource" ref_id="630"/>
+    <reference name="publication" ref_id="32"/>
+</item>
+
+<item id="641" class="" implements="DataSet">
+    <attribute name="name" value="pubmed-gene"/>
+    <attribute name="description" value="PubMed to gene mapping: Mappings of genes found in pubmed abstracts to genes"/>
+    <attribute name="version" value="April 2020"/>
+    <attribute name="url" value="ftp://ftp.ncbi.nlm.nih.gov/gene/DATA/"/>
+    <reference name="dataSource" ref_id="09"/>
+</item>
+
+<item id="682" class="" implements="DataSet">
+    <attribute name="name" value="interpro-go"/>
+    <attribute name="description" value="InterPro GO annotation: Curated GO annotations for InterPro protein domains"/>
+    <attribute name="version" value="79.0; April 2020"/>
+    <reference name="dataSource" ref_id="697"/>
+    <reference name ="publication" ref_id="36"/>
+</item>
+
+<item id="683" class="" implements="DataSource">
+    <attribute name="name" value="GWAS catalog"/>
+    <attribute name="url" value="https://www.ebi.ac.uk/gwas/"/>
+</item>
+
+<item id="6820" class="" implements="DataSet">
+    <attribute name="name" value="huge-gwas"/>
+    <attribute name="description" value="The GWAS catalog: The NHGRI-EBI catalog of published genome-wide association studies"/>
+    <attribute name="version" value="1.0; April 2020"/>
+    <reference name="dataSource" ref_id="683"/>
+    <reference name ="publication" ref_id="37"/>
+</item>
+
+<item id="684" class="" implements="DataSource">
+    <attribute name="name" value="The Human Protein Atlas"/>
+    <attribute name="url" value="https://www.proteinatlas.org/"/>
+</item>
+
+<item id="685" class="" implements="DataSet">
+    <attribute name="name" value="protein-atlas"/>
+    <attribute name="description" value="The Human Protein Atlas tissue protein expression data: Expression profiles for proteins in 44 human tissues from antibody-based protein profiling using immunohistochemistry."/>
+    <attribute name="version" value="19.3; April 2020"/>
+    <reference name="dataSource" ref_id="683"/>
+    <reference name ="publication" ref_id="38"/>
+</item>
+
+<item id="721" class="" implements="DataSet">
+    <attribute name="name" value="protein-atlas-rna"/>
+    <attribute name="description" value="The Human Protein Atlas tissue mRNA expression data: mRNA expression profiles (RNA-seq) for genes in 37 human tissues."/>
+    <attribute name="version" value="19.3; April 2020"/>
+    <reference name="dataSource" ref_id="683"/>
+    <reference name ="publication" ref_id="38"/>
+</item>
+
+
+<item id="686" class="" implements="DataSource">
+    <attribute name="name" value="GTEx portal"/>
+    <attribute name="url" value="https://www.gtexportal.org/home/"/>
+</item>
+
+<item id="687" class="" implements="DataSet">
+    <attribute name="name" value="gtex"/>
+    <attribute name="description" value="GTEx Single-tissue cis-eQTL Data: eGene and significant variant-gene associations based on permutations."/>
+    <attribute name="version" value="8; July 2019"/>
+    <reference name="dataSource" ref_id="686"/>
+    <reference name ="publication" ref_id="39"/>
+</item>
+
+<item id="688" class="" implements="DataSet">
+    <attribute name="name" value="GTEx RNA-Seq Data"/>
+    <attribute name="description" value="Median TPM by tissue."/>
+    <attribute name="version" value="8; July 2019"/>
+    <reference name="dataSource" ref_id="686"/>
+    <reference name ="publication" ref_id="39"/>
+</item>
+
+<item id="689" class="" implements="DataSource">
+    <attribute name="name" value="Human Phenotype Ontology"/>
+    <attribute name="url" value="https://hpo.jax.org/app/"/>
+</item>
+
+<item id="734" class="" implements="DataSet">
+    <attribute name="name" value="hpo"/>
+    <attribute name="description" value="The Human Phenotype Ontology: standardized vocabulary of phenotypic abnormalities encountered in human disease"/>
+    <attribute name="version" value="April 2020"/>
+    <reference name="dataSource" ref_id="689"/>
+    <reference name ="publication" ref_id="43"/>
+</item>
+
+<item id="690" class="" implements="DataSet">
+    <attribute name="name" value="hpo-annotation"/>
+    <attribute name="description" value="Human Phenotype Ontology annotations: Manual and semi-automated annotations created by the HPO-team"/>
+    <attribute name="version" value="April 2020"/>
+    <reference name="dataSource" ref_id="689"/>
+    <reference name ="publication" ref_id="43"/>
+</item>
+
+
+<item id="701" class="" implements="DataSet">
+    <attribute name="name" value="clinvar"/>
+    <attribute name="description" value="ClinVar: a freely accessible, public archive of reports of the relationships among human variations and phenotypes, with supporting evidence."/>
+    <attribute name="version" value="April 2020"/>
+    <attribute name="url" value="https://www.ncbi.nlm.nih.gov/clinvar/"/>
+    <reference name="dataSource" ref_id="09"/>
+    <reference name ="publication" ref_id="45"/>
+</item>
+
+<item id="702" class="" implements="DataSource">
+  <attribute name="name" value="The Gene Ontology Consortium"/>
+  <attribute name="url" value="http://geneontology.org/"/>
+  <attribute name="description" value="Ontology to describe the function of genes and gene products"/>
+</item>
+
+<item id="703" class="" implements="DataSet">
+  <attribute name="name" value="go-annotation"/>
+  <attribute name="description" value="Gene Ontology Annotations for human and mouse: Curated gene ontology annotations for Homo sapiens and Mus musculus"/>
+  <attribute name="version" value="April 2020"/>
+  <reference name="dataSource" ref_id="702"/>
+  <reference name ="publication" ref_id="44"/>
+</item>
+
+<item id="704" class="" implements="DataSource">
+  <attribute name="name" value="Wormbase"/>
+  <attribute name="url" value="https://wormbase.org/"/>
+  <attribute name="description" value="Wormbase: An information resource for the genetics, genomics and biology of C. elegans and related nematodes"/>
+</item>
+
+<item id="705" class="" implements="DataSet">
+  <attribute name="name" value="Wormbase gene identifiers"/>
+  <attribute name="description" value="Caenorhabditis elegans gene identifiers from wormbase"/>
+  <attribute name="version" value="WS276"/>
+  <reference name="dataSource" ref_id="704"/>
+  <reference name ="publication" ref_id="46"/>
+</item>
+
+<item id="706" class="" implements="DataSource">
+  <attribute name="name" value="HGNC"/>
+  <attribute name="url" value="https://www.genenames.org/"/>
+  <attribute name="description" value="HUGO gene nomenclature committee: The resource for approved human gene nomenclature"/>
+</item>
+
+<item id="707" class="" implements="DataSet">
+  <attribute name="name" value="hgnc"/>
+  <attribute name="description" value="HGNC identifiers: HUGO gene nomenclature committee: Approved identifiers for Human genes"/>
+  <attribute name="version" value="April 2020"/>
+  <reference name="dataSource" ref_id="706"/>
+  <reference name ="publication" ref_id="47"/>
+</item>
+
+
+<item id="708" class="" implements="DataSet">
+    <attribute name="name" value="go"/>
+    <attribute name="description" value="The Gene Ontology: Ontology describing the function of genes and gene products"/>
+    <attribute name="version" value="April 2020"/>
+    <attribute name="url" value="http://www.geneontology.org/"/>
+    <reference name="dataSource" ref_id="703"/>
+    <reference name="publication" ref_id="44"/>
+</item>
+
+ <item id="709" class="" implements="DataSource">
+   <attribute name="name" value="The Mouse genome database (MGD) from Mouse Genome Informatics (MGI)"/>
+       <attribute name="description" value="The Mouse genome database (MGD) from Mouse Genome Informatics (MGI)"/>
+       <attribute name="url" value="http://www.informatics.jax.org/"/>
+</item>
+
+ <item id="710" class="" implements="DataSource">
+   <attribute name="name" value="Sequence Ontology"/>
+      <attribute name="description" value="The Sequence Ontology: a set of terms and relationships used to describe the features and attributes of biological sequence"/>
+    <attribute name="url" value="http://www.sequenceontology.org/"/>
+</item>
+
+<item id="711" class="" implements="DataSet">
+    <attribute name="name" value="so"/>
+    <attribute name="description" value="The Sequence Ontology: a set of terms and relationships used to describe the features and attributes of biological sequence"/>
+<attribute name="version" value="April 2020"/>
+    <attribute name="url" value="http://www.sequenceontology.org/"/>
+    <reference name="dataSource" ref_id="710"/>
+    <reference name="publication" ref_id="48"/>
+</item>
+
+<item id="712" class="" implements="DataSource">
+  <attribute name="name" value="HUPO Proteomics Standards Initiative"/>
+  <attribute name="description" value="Community standards for data representation in proteomics"/>
+  <attribute name="url" value="http://www.psidev.info/"/>
+</item>
+
+<item id="713" class="" implements="DataSet">
+  <attribute name="name" value="psi-mi-ontology"/>
+  <attribute name="description" value="PSI Molecular Interactions CV:  A controlled vocabulary for describing molecular interactions"/>
+  <attribute name="version" value="April 2020"/>
+  <attribute name="url" value="https://www.ebi.ac.uk/ols/ontologies/mi/"/>
+  <reference name="dataSource" ref_id="712"/>
+  <reference name="publication" ref_id="49"/>
+</item>
+
+<item id="717" class="" implements="DataSource">
+  <attribute name="name" value="The rat genome database"/>
+  <attribute name="description" value="The rat genome database (MGI): A database of genetic, genomic, phenotype, and disease data generated from rat research"/>
+  <attribute name="url" value="https://rgd.mcw.edu/"/>
+</item>
+
+<item id="718" class="" implements="DataSet">
+  <attribute name="name" value="rgd-identifiers"/>
+  <attribute name="description" value="Rat gene identifiers: Approved identifiers for rat genes from the Rat Genome Database"/>
+  <attribute name="version" value="April 2020"/>
+  <attribute name="url" value="https://rgd.mcw.edu//"/>
+  <reference name="dataSource" ref_id="717"/>
+  <reference name="publication" ref_id="50"/>
+</item>
+
+<item id="719" class="" implements="DataSet">
+    <attribute name="name" value="mgi-identifiers"/>
+    <attribute name="description" value="Mouse identifiers: Approved identifiers for Mouse genes from the Mouse Genome Database"/>
+<attribute name="version" value="6.15; April 2020"/>
+    <attribute name="url" value="http://www.informatics.jax.org/"/>
+    <reference name="dataSource" ref_id="709"/>
+    <reference name="publication" ref_id="51"/>
+</item>
+
+<item id="720" class="" implements="DataSet">
+    <attribute name="name" value="mgi-alleles"/>
+    <attribute name="description" value="Mouse alleles and phenotypes: Mouse alleles and phenotypes mapped to human orthologues"/>
+<attribute name="version" value="6.15; April 2020"/>
+    <attribute name="url" value="http://www.informatics.jax.org/"/>
+    <reference name="dataSource" ref_id="709"/>
+    <reference name="publication" ref_id="51"/>
+</item>
+
+<item id="725" class="" implements="DataSource">
+    <attribute name="name" value="Mammalian Phenotype Ontology"/>
+    <attribute name="url" value="http://www.informatics.jax.org/vocab/mp_ontology"/>
+</item>
+
+<item id="726" class="" implements="DataSet">
+    <attribute name="name" value="mammalian-phenotype-ontology"/>
+    <attribute name="description" value="Mammalian Phenotype Ontology: Phenotypic information related to the mouse and other mammalian species"/>
+    <attribute name="url" value="http://www.informatics.jax.org/vocab/mp_ontology"/>
+    <attribute name="version" value="April 2020"/>
+    <reference name="dataSource" ref_id="725"/>
+    <reference name ="publication" ref_id="52"/>
+</item>
+
+
+ <item id="727" class="" implements="DataSource">
+   <attribute name="name" value="The Gene Ontology Consortium"/>
+    <attribute name="description" value="Ontology to describe the function of genes and gene products"/>
+    <attribute name="url" value="http://www.geneontology.org/"/>
+</item>
+
+
+<item id="728" class="" implements="DataSet">
+    <attribute name="name" value="go"/>
+    <attribute name="description" value="The Gene Ontology: Ontology describing the function of genes and gene products"/>
+    <attribute name="version" value="April 2020"/>
+    <attribute name="url" value="http://www.geneontology.org/"/>
+    <reference name="dataSource" ref_id="727"/>
+    <reference name="publication" ref_id="53"/>
+</item>
+
+
+<item id="729" class="" implements="DataSet">
+    <attribute name="name" value="go-annotation"/>
+    <attribute name="description" value="GO Annotation for Homo sapiens: Curated gene ontology annotations for human genes"/>
+    <attribute name="version" value="April 2020"/>
+    <attribute name="url" value="http://current.geneontology.org/annotations/index.html"/>
+    <reference name="dataSource" ref_id="727"/>
+    <reference name="publication" ref_id="53"/>
+</item>
+
+<item id="732" class="" implements="DataSource">
+    <attribute name="name" value="Orphanet"/>
+    <attribute name="url" value="https://www.orpha.net/consor/cgi-bin/index.php"/>
+</item>
+
+<item id="733" class="" implements="DataSet">
+    <attribute name="name" value="orphanet"/>
+    <attribute name="description" value="Orphanet (rare disease portal): this dataset is used to add Orphanet disease names to the Human Phenotype Ontology annotation dataset"/>
+    <attribute name="url" value="https://www.orpha.net/consor/cgi-bin/index.php"/>
+    <attribute name="version" value="April 2020"/>
+    <reference name="dataSource" ref_id="732"/>
+    <reference name ="publication" ref_id="43"/>
+</item>
+
+
+
+</items>
