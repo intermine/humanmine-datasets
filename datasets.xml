@@ -108,6 +108,10 @@
 <item id="54" class="" implements="Publication"> 
     <attribute name="pubMedId" value="30357405"/> 
 </item>
+    
+<item id="55" class="" implements="Publication"> 
+    <attribute name="pubMedId" value="31680165"/> 
+</item>    
 
 <item id="09" class="" implements="DataSource">
     <attribute name="name" value="NCBI"/>
@@ -580,6 +584,22 @@ D. rerio, C. elegans, M. musculus, R. norvegicus, H. sapiens, S. cerevisiae from
     <reference name="dataSource" ref_id="732"/>
     <reference name ="publication" ref_id="43"/>
 </item>
+
+    <item id="734" class="" implements="DataSource">
+    <attribute name="name" value="DisGeNet"/>
+    <attribute name="url" value="https://www.disgenet.org/"/>
+</item>
+
+<item id="735" class="" implements="DataSet">
+    <attribute name="name" value="disgenet"/>
+    <attribute name="description" value="Human disease-gene associations from DisGeNet.  DisGeNet integrates the data from many other data sources"/>
+    <attribute name="url" value="https://www.disgenet.org/"/>
+    <attribute name="version" value="Version 7; May 2021">/
+    <reference name="dataSource" ref_id="734"/>
+    <reference name ="publication" ref_id="55"/>
+</item>
+
+
 
 
 
