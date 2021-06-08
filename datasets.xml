@@ -595,7 +595,7 @@ D. rerio, C. elegans, M. musculus, R. norvegicus, H. sapiens, S. cerevisiae from
     <attribute name="description" value="Human disease-gene associations from DisGeNet.  DisGeNet integrates the data from many other data sources"/>
     <attribute name="url" value="https://www.disgenet.org/"/>
     <attribute name="version" value="Version 7; May 2021">/
-    <reference name="dataSource" ref_id="734"/>
+    <reference name="dataSource" ref_id="735"/>
     <reference name ="publication" ref_id="55"/>
 </item>
 
