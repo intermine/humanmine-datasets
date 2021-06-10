@@ -130,7 +130,7 @@
 <item id="14" class="" implements="DataSet">
     <attribute name="name" value="ncbi-gff"/>
     <attribute name="description" value="Homo sapiens genome annotation" />
-    <attribute name="version" value="109.20210226; May 2021"
+    <attribute name="version" value="109.20210226; May 2021" />
     <attribute name="url" value="https://www.ncbi.nlm.nih.gov"/>
     <reference name="dataSource" ref_id="09"/>
   </item>
@@ -138,7 +138,7 @@
   <item id="721" class="" implements="DataSet">
     <attribute name="name" value="ncbi-gene"/>
     <attribute name="description" value="Homo sapiens gene information: Additional Homo sapiens gene information from NCBI-Gene."  />
-    <attribute name="version" value="109.20210226; May 2021"
+    <attribute name="version" value="109.20210226; May 2021"/>
     <attribute name="url" value="https://www.ncbi.nlm.nih.gov"/>
     <reference name="dataSource" ref_id="09"/>
   </item>
@@ -146,7 +146,7 @@
     <item id="722" class="" implements="DataSet">
     <attribute name="name" value="ncbi-summaries"/>
     <attribute name="description" value="Homo sapiens gene summaries: text descriptions for gene functions from NCBI-Gene"  />
-    <attribute name="version" value="109.20210226; May 2021"
+    <attribute name="version" value="109.20210226; May 2021"/>
     <attribute name="url" value="https://www.ncbi.nlm.nih.gov"/>
     <reference name="dataSource" ref_id="09"/>
 </item>
@@ -158,9 +158,8 @@
 </item>
 
 <item id="695" class="" implements="DataSet">
-    <attribute name="name" value="panther">
-    <attribute name="description" value="Panther:Orthologue and Paralogue predictions between D. melanogaster,
-D. rerio, C. elegans, M. musculus, R. norvegicus, H. sapiens, S. cerevisiae from the Panther database"/>
+    <attribute name="name" value="panther"/>
+    <attribute name="description" value="Panther:Orthologue and Paralogue predictions between D. melanogaster, D. Rerio, C. elegans, M. musculus, R. norvegicus, H. sapiens, S. cerevisiae from the Panther database"/>
     <attribute name="version" value="16.0; December 2020"/>
     <attribute name="url" value="http://pantherdb.org/"/>
     <reference name="dataSource" ref_id="696"/>
@@ -421,7 +420,7 @@ D. rerio, C. elegans, M. musculus, R. norvegicus, H. sapiens, S. cerevisiae from
 <item id="734" class="" implements="DataSet">
     <attribute name="name" value="hpo"/>
     <attribute name="description" value="The Human Phenotype Ontology: standardized vocabulary of phenotypic abnormalities encountered in human disease"/>
-    <attribute name="version" value="May 2021">/
+    <attribute name="version" value="May 2021"/>
     <reference name="dataSource" ref_id="689"/>
     <reference name ="publication" ref_id="43"/>
 </item>
@@ -429,7 +428,7 @@ D. rerio, C. elegans, M. musculus, R. norvegicus, H. sapiens, S. cerevisiae from
 <item id="690" class="" implements="DataSet">
     <attribute name="name" value="hpo-annotation"/>
     <attribute name="description" value="Human Phenotype Ontology annotations: Manual and semi-automated annotations created by the HPO-team"/>
-    <attribute name="version" value="May 2021">/
+    <attribute name="version" value="May 2021"/>
     <reference name="dataSource" ref_id="689"/>
     <reference name ="publication" ref_id="43"/>
 </item>
@@ -448,13 +447,13 @@ D. rerio, C. elegans, M. musculus, R. norvegicus, H. sapiens, S. cerevisiae from
 <item id="706" class="" implements="DataSource">
   <attribute name="name" value="HGNC"/>
   <attribute name="url" value="https://www.genenames.org/"/>
-  <attribute name="description" value="HUGO gene nomenclature committee: The resource for approved human gene nomenclature">
+  <attribute name="description" value="HUGO gene nomenclature committee: The resource for approved human gene nomenclature"/>
 </item>
 
 <item id="707" class="" implements="DataSet">
   <attribute name="name" value="hgnc"/>
   <attribute name="description" value="HGNC identifiers: HUGO gene nomenclature committee: Approved identifiers for Human genes"/>
-  <attribute name="version" value="May 2021">/
+  <attribute name="version" value="May 2021"/>
   <reference name="dataSource" ref_id="706"/>
   <reference name ="publication" ref_id="47"/>
 </item>
@@ -539,7 +538,7 @@ D. rerio, C. elegans, M. musculus, R. norvegicus, H. sapiens, S. cerevisiae from
     <attribute name="name" value="mammalian-phenotype-ontology"/>
     <attribute name="description" value="Mammalian Phenotype Ontology: Phenotypic information related to the mouse and other mammalian species"/>
     <attribute name="url" value="http://www.informatics.jax.org/vocab/mp_ontology"/>
-    <attribute name="version" value="May 2021">/
+    <attribute name="version" value="May 2021"/>
     <reference name="dataSource" ref_id="725"/>
     <reference name ="publication" ref_id="52"/>
 </item>
@@ -580,7 +579,7 @@ D. rerio, C. elegans, M. musculus, R. norvegicus, H. sapiens, S. cerevisiae from
     <attribute name="name" value="orphanet"/>
     <attribute name="description" value="Orphanet (rare disease portal): this dataset is used to add Orphanet disease names to the Human Phenotype Ontology annotation dataset"/>
     <attribute name="url" value="https://www.orpha.net/consor/cgi-bin/index.php"/>
-    <attribute name="version" value="May 2021">/
+    <attribute name="version" value="May 2021"/>
     <reference name="dataSource" ref_id="732"/>
     <reference name ="publication" ref_id="43"/>
 </item>
@@ -594,7 +593,7 @@ D. rerio, C. elegans, M. musculus, R. norvegicus, H. sapiens, S. cerevisiae from
     <attribute name="name" value="disgenet-disease-associations"/>
     <attribute name="description" value="Human disease-gene associations from DisGeNet.  DisGeNet integrates the data from many other data sources"/>
     <attribute name="url" value="https://www.disgenet.org/"/>
-    <attribute name="version" value="Version 7; May 2021">/
+    <attribute name="version" value="Version 7; May 2021"/>
     <reference name="dataSource" ref_id="735"/>
     <reference name ="publication" ref_id="55"/>
 </item>
