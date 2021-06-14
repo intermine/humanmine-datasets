@@ -261,7 +261,7 @@
     <reference name="publication" ref_id="20"/>
 </item>
 
-<item id="723" class="" implements="DataSet">
+<item id="7230" class="" implements="DataSet">
     <attribute name="name" value="uniprot"/>
     <attribute name="description" value="UniProt protein sequences: Protein sequences from UniProt"/>
     <attribute name="version" value="2020_06"/>
@@ -382,7 +382,7 @@
     <reference name ="publication" ref_id="38"/>
 </item>
 
-<item id="721" class="" implements="DataSet">
+<item id="7210" class="" implements="DataSet">
     <attribute name="name" value="protein-atlas-rna"/>
     <attribute name="description" value="The Human Protein Atlas tissue mRNA expression data: mRNA expression profiles (RNA-seq) for genes in 37 human tissues."/>
     <attribute name="version" value="20.0; November 2020"/>
@@ -444,17 +444,17 @@
 </item>
 
 
-<item id="706" class="" implements="DataSource">
+<item id="7060" class="" implements="DataSource">
   <attribute name="name" value="HGNC"/>
   <attribute name="url" value="https://www.genenames.org/"/>
   <attribute name="description" value="HUGO gene nomenclature committee: The resource for approved human gene nomenclature"/>
 </item>
 
-<item id="707" class="" implements="DataSet">
+<item id="7070" class="" implements="DataSet">
   <attribute name="name" value="hgnc"/>
   <attribute name="description" value="HGNC identifiers: HUGO gene nomenclature committee: Approved identifiers for Human genes"/>
   <attribute name="version" value="May 2021"/>
-  <reference name="dataSource" ref_id="706"/>
+  <reference name="dataSource" ref_id="7060"/>
   <reference name ="publication" ref_id="47"/>
 </item>
 
