@@ -262,7 +262,7 @@
 </item>
 
 <item id="7230" class="" implements="DataSet">
-    <attribute name="name" value="uniprot"/>
+    <attribute name="name" value="uniprot-fasta"/>
     <attribute name="description" value="UniProt protein sequences: Protein sequences from UniProt"/>
     <attribute name="version" value="2020_06"/>
     <attribute name="url" value="http://www.uniprot.org/"/>
