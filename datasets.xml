@@ -246,7 +246,7 @@
 <item id="11" class="" implements="DataSet">
     <attribute name="name" value="uniprot"/>
     <attribute name="description" value="UniProt: Swiss-prot and TrEMBL: Swiss-prot:high-quality, manually annotated, non-redundant protein sequences; TrEMBL: Computationally analysed records, enriched with automatic annotation"/>
-    <attribute name="version" value="2020_06"/>
+    <attribute name="version" value="2021_02"/>
     <attribute name="url" value="http://www.uniprot.org/"/>
     <reference name="dataSource" ref_id="13"/>
     <reference name="publication" ref_id="20"/>
@@ -255,7 +255,7 @@
 <item id="723" class="" implements="DataSet">
     <attribute name="name" value="uniprot-keywords"/>
     <attribute name="description" value="UniProt keywords: a controlled vocabulary for UniProt data"/>
-    <attribute name="version" value="2020_06"/>
+    <attribute name="version" value="2021_02"/>
     <attribute name="url" value="http://www.uniprot.org/"/>
     <reference name="dataSource" ref_id="13"/>
     <reference name="publication" ref_id="20"/>
@@ -264,7 +264,7 @@
 <item id="7230" class="" implements="DataSet">
     <attribute name="name" value="uniprot-fasta"/>
     <attribute name="description" value="UniProt protein sequences: Protein sequences from UniProt"/>
-    <attribute name="version" value="2020_06"/>
+    <attribute name="version" value="2021_02"/>
     <attribute name="url" value="http://www.uniprot.org/"/>
     <reference name="dataSource" ref_id="13"/>
     <reference name="publication" ref_id="20"/>
@@ -378,7 +378,7 @@
     <attribute name="name" value="protein-atlas"/>
     <attribute name="description" value="The Human Protein Atlas tissue protein expression data: Expression profiles for proteins in 44 human tissues from antibody-based protein profiling using immunohistochemistry."/>
     <attribute name="version" value="20.0; November 2020"/>
-    <reference name="dataSource" ref_id="683"/>
+    <reference name="dataSource" ref_id="684"/>
     <reference name ="publication" ref_id="38"/>
 </item>
 
@@ -386,7 +386,7 @@
     <attribute name="name" value="protein-atlas-rna"/>
     <attribute name="description" value="The Human Protein Atlas tissue mRNA expression data: mRNA expression profiles (RNA-seq) for genes in 37 human tissues."/>
     <attribute name="version" value="20.0; November 2020"/>
-    <reference name="dataSource" ref_id="683"/>
+    <reference name="dataSource" ref_id="684"/>
     <reference name ="publication" ref_id="38"/>
 </item>
 
