@@ -608,13 +608,22 @@
 </item>   
     
 <item id="738" class="" implements="DataSet">
-    <attribute name="name" value="depmap"/>
+    <attribute name="name" value="depmap-expression"/>
     <attribute name="description" value="RNAseq TPM gene expression data for protein coding genes in various cell lines. "/>
-    <attribute name="url" value="https://www.disgenet.org/"/>
+    <attribute name="url" value="https://depmap.org/"/>
     <attribute name="version" value="May 2021"/>
     <reference name="dataSource" ref_id="737"/>
     <reference name ="publication" ref_id="56"/>
 </item>
+    
+<item id="739" class="" implements="DataSet">
+    <attribute name="name" value="depmap-sample-info"/>
+    <attribute name="description" value="Cell line details for the depmap expression data."/>
+    <attribute name="url" value="https://depmap.org/"/>
+    <attribute name="version" value="May 2021"/>
+    <reference name="dataSource" ref_id="737"/>
+    <reference name ="publication" ref_id="56"/>
+</item>    
         
 
 
