@@ -297,13 +297,16 @@
     <reference name="dataSource" ref_id="112"/>
 </item>
 
+<!--    
 <item id="490" class="" implements="DataSource">
     <attribute name="name" value="GenomeNet"/>
     <attribute name="description" value="Network of database and computational services for genome research and related research areas in biomedical sciences, operated by the Kyoto University Bioinformatics Center. "/>
     <attribute name="url" value="http://www.genome.jp/en/"/>
 </item>
+-->
 
 <!-- don't change data set name. this exact name is used to filter pathways on an analysis tool -->
+<!--     
 <item id="491" class="" implements="DataSet">
     <attribute name="name" value="kegg-pathway"/>
     <attribute name="description" value="KEGG pathways: Manually drawn pathway maps representing our knowledge on the molecular interaction and reaction networks for Homo sapiens and Mus musculus"/>
@@ -312,6 +315,7 @@
     <reference name="dataSource" ref_id="490"/>
     <reference name="publication" ref_id="27"/>
 </item>
+-->    
 
 <item id="117" class="" implements="DataSource">
     <attribute name="name" value="Reactome"/>
@@ -323,7 +327,7 @@
 <item id="552" class="" implements="DataSet">
     <attribute name="name" value="reactome"/>
     <attribute name="description" value="Reactome pathways: pathway data for Homo sapiens and Mus musculus from the Reactome database"/>
-    <attribute name="version" value="77; June 2021"/>
+    <attribute name="version" value="78; October 2021"/>
     <attribute name="url" value="http://www.reactome.org"/>
     <reference name="dataSource" ref_id="117"/>
     <reference name="publication" ref_id="29"/>
